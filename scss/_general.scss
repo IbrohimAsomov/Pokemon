@@ -1,0 +1,42 @@
+html {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;    
+    padding: 0;
+    margin: 0;
+    font-family: '', 'Arila', sans-serif ;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}   
